@@ -1,8 +1,9 @@
+//viết yêu cầu người dùng
 import 'dart:io';
-import 'dart:developer';
 
 void main() {
   print('Mời nhập tên');
+  // stdin.readLineSync(); method để đọc code từ input
   String? name = stdin.readLineSync();
   print('Nhập tuổi');
   int age = int.parse(stdin.readLineSync()!);
